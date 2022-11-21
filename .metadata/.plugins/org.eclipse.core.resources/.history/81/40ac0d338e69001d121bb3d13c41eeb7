@@ -1,0 +1,16 @@
+package net.luferat.tests01;
+
+public class NumberCalc {
+
+	double num1, num2;
+
+	public NumberCalc(double num1, double nun2) {
+		this.num1 = num1;
+		this.num2 = num2;
+	}
+
+	public double numberSums() {
+		return num1 + num2;
+	}
+
+}

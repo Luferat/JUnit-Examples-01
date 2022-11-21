@@ -1,0 +1,16 @@
+package net.luferat.tests01;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class NumberCalcTest {
+
+	@Test
+	void somaDoisValores() {
+		NumberCalc number = new NumberCalc(4, 2);
+		System.out.println(number.numberSums());
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package net.luferat.tests01;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class NumberCalcTest {
+
+	@Test
+	void comparaDoisValores() {
+		NumberCalc number = new NumberCalc(4);
+		assertTrue(number.isEven());
+	}
+
+}

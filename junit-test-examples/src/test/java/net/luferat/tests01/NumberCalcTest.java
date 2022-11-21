@@ -1,0 +1,26 @@
+package net.luferat.tests01;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class NumberCalcTest {
+
+	NumberCalc number = new NumberCalc(4, 2);
+	
+	@Test
+	void somaValores() {
+		assertEquals(6, number.numberPlus());
+	}
+	
+	@Test
+	void subtraiValores() {
+		assertEquals(2, number.numberMinus());
+	}
+	
+	@Test
+	void multiplicaValores() {
+		assertEquals(8, number.numberMult());
+	}
+
+}

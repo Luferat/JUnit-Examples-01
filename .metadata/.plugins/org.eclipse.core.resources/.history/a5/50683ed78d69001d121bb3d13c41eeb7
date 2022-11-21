@@ -1,0 +1,22 @@
+package net.luferat.tests01;
+
+public class NumberCalc {
+
+	int number;
+
+	public NumberCalc(int number) {
+		this.number = number;
+	}
+
+	public boolean isEven() {
+		if (number % 2 == 0)
+			return true;
+		else
+			return false;
+	}
+
+	public boolean isOdd() {
+		return !isEven();
+	}
+
+}

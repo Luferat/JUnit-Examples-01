@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;net.luferat.tests01.NumberCalc&apos; to &apos;NumberCalcTest&apos;&#x0D;&#x0A;- Original project: &apos;junit-test-examples&apos;&#x0D;&#x0A;- Original element: &apos;net.luferat.tests01.NumberCalc&apos;&#x0D;&#x0A;- Renamed element: &apos;net.luferat.tests01.NumberCalcTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;NumberCalc&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;net.luferat.tests01{NumberCalc.java[NumberCalc" matchStrategy="1" name="NumberCalcTest" qualified="false" references="true" similarDeclarations="false" stamp="1669028391536" textual="false" version="1.0"/>
+</session>
